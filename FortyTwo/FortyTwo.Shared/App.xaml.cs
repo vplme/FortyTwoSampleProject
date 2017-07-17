@@ -1,5 +1,6 @@
-﻿using FortyTwo.Views;
-
+﻿using FortyTwo.Shared.Properties;
+using FortyTwo.Views;
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,6 +14,7 @@ namespace FortyTwo
             InitializeComponent();
 
             SetMainPage();
+            Debug.WriteLine(AppResources.String1);
         }
 
         public static void SetMainPage()
